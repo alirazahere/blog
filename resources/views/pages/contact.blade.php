@@ -4,7 +4,7 @@
 @section('content')
     <div class="jumbotron">
         <h1 class="display-4">Contact Me</h1>
-        <p class="lead">Fill this form to contact me for ant queries.</p>
+        <p class="lead">Fill this form to contact me for any queries.</p>
         <hr class="my-4">
         <div class="container">
         <form action="#">
@@ -18,7 +18,7 @@
             </div>
             <div class="form-group">
                 <label for="message">Message :</label>
-                <textarea id="message" class="form-control">Type your message here...</textarea>
+                <textarea id="message" PLACEHOLDER="Enter Your Message"  name="message" class="form-control"></textarea>
             </div>
             <div class="form-group">
                 <input type="submit" value="Send Message" class="btn btn-success">

@@ -10,8 +10,9 @@
 
 {{--Content--}}
 <div class="container pt-3 pb-1">
-@yield('content')
-@include('partials._footer')
+    @include('partials._message')
+    @yield('content')
+    @include('partials._footer')
 </div>
 
 @include('partials._script')
